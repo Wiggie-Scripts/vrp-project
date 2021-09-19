@@ -1,0 +1,44 @@
+h1 {
+  font-family: Pricedown; /* GTA5 Font */
+  animation: rgb 5s linear infinite alternate; /* RGB Animation */
+  color: #0888ff; /* Default Text Color Before Rainbow Animation */
+  position: absolute; /* Changes Position to Absolute */
+  font-size: 28px; /* Modify your Font-Size for watermark */
+  text-align: center; /* Changes text-aling middle of screen = center */
+  text-shadow: 3px 3px black; /* Add cool shadow for our text to make easible read */
+  font-family: sans-serif;
+  top: -22px; /* Higher value goes down and lower value goes up */
+  left: 43.1%; /* Smaller value goes left and higher goes right */
+}
+
+/* RGB CODE DON'T TOUCH IF YOU DONT KNOW WHAT ARE YOU DOING! */
+
+@keyframes rgb {
+  0% {
+    color: rgb(250, 50, 50);
+  }
+  12.5% {
+    color: rgb(250, 250, 50);
+  }
+  25% {
+    color: rgb(50, 250, 50);
+  }
+  37.5% {
+    color: rgb(50, 250, 250);
+  }
+  50% {
+    color: rgb(50, 50, 250);
+  }
+  62.5% {
+    color: rgb(50, 250, 250);
+  }
+  75% {
+    color: rgb(50, 250, 50);
+  }
+  87.5% {
+    color: rgb(250, 250, 50);
+  }
+  100% {
+    color: rgb(250, 50, 50);
+  }
+}
